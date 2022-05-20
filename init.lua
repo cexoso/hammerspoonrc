@@ -42,8 +42,13 @@ hs.hotkey.bind({ 'alt' }, 'g', function()
    launchOrNextWindow('Google Chrome')
 end)
 
-hs.hotkey.bind({ 'alt' }, 'F', function()
-   launchOrNextWindow('Lark')
+
+hs.hotkey.bind({ 'alt' }, 'f', function()
+  launchOrNextWindow('企业微信');
+end)
+
+hs.hotkey.bind({ 'alt' }, 'a', function()
+  launchOrNextWindow('WeChat');
 end)
 
 hs.hotkey.bind({ 'alt' }, 'i', function()
