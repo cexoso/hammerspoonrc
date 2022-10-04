@@ -42,9 +42,14 @@ hs.hotkey.bind({ 'alt' }, 'g', function()
    launchOrNextWindow('Google Chrome')
 end)
 
+hs.hotkey.bind({ 'cmd' }, 'l', function()
+  hs.reload()
+end)
+
+hs.alert("reload hammerspoonrc")
 
 hs.hotkey.bind({ 'alt' }, 'f', function()
-  launchOrNextWindow('企业微信');
+  launchOrNextWindow('Lark');
 end)
 
 hs.hotkey.bind({ 'alt' }, 'a', function()
