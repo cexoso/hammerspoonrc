@@ -60,12 +60,12 @@ end)
 
 -- move active window to previous monitor
 hotkey.bind({"cmd", "alt", "ctrl"}, "Left", function()
-  window.focusedWindow():moveOneScreenWest()
+  window.focusedWindow():moveOneScreenWest():maximize()
 end)
 
 -- move active window to next monitor
 hotkey.bind({"cmd", "alt", "ctrl"}, "Right", function()
-  window.focusedWindow():moveOneScreenEast()
+  window.focusedWindow():moveOneScreenEast():maximize()
 end)
 --
 
