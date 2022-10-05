@@ -32,23 +32,23 @@ hotkey.bind({"cmd", "alt"}, "Down", function()
 end)
 --
 -- left top quarter
-hotkey.bind({"cmd", "shift"}, "Left", function()
+hotkey.bind({"alt", "shift"}, "Left", function()
   window.focusedWindow():moveToUnit'[0,0,50,50]'
 end)
 --
 --
 -- right top quarter
-hotkey.bind({"cmd", "shift"}, "Right", function()
+hotkey.bind({"alt", "shift"}, "Right", function()
   window.focusedWindow():moveToUnit'[50,0,100,50]'
 end)
 --
 -- left bottom quarter
-hotkey.bind({"cmd", "shift"}, "up", function()
+hotkey.bind({"alt", "shift"}, "up", function()
   window.focusedWindow():moveToUnit'[0,50,50,100]'
 end)
 
 -- right bottom quarter
-hotkey.bind({"cmd", "shift"}, "Down", function()
+hotkey.bind({"alt", "shift"}, "Down", function()
   window.focusedWindow():moveToUnit'[50,50,100,100]'
 end)
 
@@ -87,12 +87,12 @@ local function focusScreen(screen1)
   mouse.setAbsolutePosition(pt)
 end
 -- move cursor to previous monitor
-hotkey.bind({"cmd"}, "Left", function ()
+hotkey.bind({"alt"}, "Left", function ()
   focusScreen(window.focusedWindow():screen():previous())
 end)
 
 -- move cursor to next monitor
-hotkey.bind({"cmd"}, "Right", function ()
+hotkey.bind({"alt"}, "Right", function ()
   focusScreen(window.focusedWindow():screen():next())
 end)
 
