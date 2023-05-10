@@ -96,4 +96,11 @@ hotkey.bind({"alt"}, "Right", function ()
   focusScreen(window.focusedWindow():screen():next())
 end)
 
+-- 显示桌面
+hotkey.bind({"cmd"}, "h", function()
+  local apps = hs.application.runningApplications()
+   for i=1,#apps do
+     apps[i]:hide()
+  end
+end)
 
