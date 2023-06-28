@@ -52,3 +52,7 @@ hs.hotkey.bind({ 'alt' }, 'v', function()
    launchOrNextWindow('', 'com.microsoft.VSCode')
 end)
 
+hs.hotkey.bind({ 'alt' }, 'u', function()
+   launchOrNextWindow('', 'com.electron.lark.iron')
+end)
+
