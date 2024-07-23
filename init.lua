@@ -1,6 +1,6 @@
-hs.hotkey.bind({ 'cmd' }, 'l', function()
-  hs.reload()
-end)
+-- hs.hotkey.bind({ 'cmd' }, 'l', function()
+--   hs.reload()
+-- end)
 
 hs.alert("reload hammerspoonrc")
 
