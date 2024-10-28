@@ -32,6 +32,10 @@ hs.hotkey.bind({ 'cmd' }, 'i', function()
    launchOrNextWindow('Alacritty')
 end)
 
+hs.hotkey.bind({ 'alt' }, 'r', function()
+   launchOrNextWindow('Arc')
+end)
+
 hs.hotkey.bind({ 'alt' }, 'g', function()
    launchOrNextWindow('Google Chrome')
 end)
