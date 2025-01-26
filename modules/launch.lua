@@ -49,7 +49,11 @@ hs.hotkey.bind({ 'alt' }, 'a', function()
 end)
 
 hs.hotkey.bind({ 'alt' }, 'i', function()
-   launchOrNextWindow('iterm')
+   launchOrNextWindow('Ghostty')
+end)
+
+hs.hotkey.bind({ 'alt' }, 'd', function()
+   launchOrNextWindow('Doubao')
 end)
 
 hs.hotkey.bind({ 'alt' }, 'v', function()
