@@ -56,6 +56,10 @@ hs.hotkey.bind({ 'alt' }, 'd', function()
    launchOrNextWindow('Doubao')
 end)
 
+hs.hotkey.bind({ 'alt' }, 'w', function()
+   launchOrNextWindow('Figma')
+end)
+
 hs.hotkey.bind({ 'alt' }, 'v', function()
    launchOrNextWindow('', 'com.microsoft.VSCode')
 end)
