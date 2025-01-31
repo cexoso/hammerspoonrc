@@ -60,6 +60,10 @@ hs.hotkey.bind({ 'alt' }, 'w', function()
    launchOrNextWindow('Figma')
 end)
 
+hs.hotkey.bind({ 'alt' }, 'm', function()
+   launchOrNextWindow('Simulator')
+end)
+
 hs.hotkey.bind({ 'alt' }, 'v', function()
    launchOrNextWindow('', 'com.microsoft.VSCode')
 end)
